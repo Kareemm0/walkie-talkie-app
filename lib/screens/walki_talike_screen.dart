@@ -34,6 +34,7 @@ class _WalkieTalkieScreenState extends State<WalkieTalkieScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Walkie-Talkie'),
+        centerTitle: true,
       ),
       body: Center(
         child: Column(
